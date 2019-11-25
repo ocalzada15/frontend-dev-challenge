@@ -1,0 +1,28 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ 
+   
+  }
+  
+  iframe {
+    width: 80%;
+    height: 80vmin;
+  }
+
+  strong {
+      color: black;
+  }
+
+  h1 {
+      color: grey;
+  }
+
+  h2 {
+      color: teal;
+  }
+
+  a {
+      color: blue;
+  }
+  
