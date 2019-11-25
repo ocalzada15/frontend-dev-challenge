@@ -144,10 +144,7 @@ h2 {
     height: 25px;
     padding-top: 3px;
 }
-#myElement {
-    margin-left:auto;
-    margin-right:auto;
-}
+
 ul li{
     line-height:150%;
     margin-bottom:12px;
