@@ -1,15 +1,9 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: #f6f6f6;
+  background-color: #B2D8B2;
 }
 
-iframe {
-  width: 80%;
-  height: 80vmin;
-}
-
-/* CSS Document */
 a {
 color:#7dad41;
 	font-weight:700;
@@ -39,7 +33,6 @@ color:#7dad41;
 	color:#2d6318;
 }
 
-
 .ess-toptitle {
     background-color:#fff;
     width:100%;
@@ -64,7 +57,7 @@ color:#7dad41;
     border-radius:6px;
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: absolute;
     right:30px;
@@ -72,7 +65,7 @@ color:#7dad41;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -83,7 +76,7 @@ color:#7dad41;
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
     color: #333;
     padding: 12px 16px;
@@ -94,15 +87,14 @@ color:#7dad41;
     font-weight:400;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+ 
 .dropdown:hover .dropbtn {background-color: #3e8e41;} 
-
 
 .ess-content{
     padding: 10px 80px 15px;
@@ -112,8 +104,6 @@ color:#7dad41;
     
 }
 
-
-
 h1 {
     font-weight:400;
     font-size:18px;
@@ -121,6 +111,7 @@ h1 {
     margin-top:0;
     color:#333333;
 }
+
 h2 {
     font-weight:700;
     font-size:18px;
@@ -176,9 +167,11 @@ ul li{
     padding:0;
     margin:0;
 }
+
 .definitions li {
     float:left;
 }
+
 .def_btn{
    background-color:#669543;
 	border-radius:6px;
@@ -198,15 +191,12 @@ ul li{
     width:130px;
     margin:5px;
     height:100px;
-    
 }
  
 .button {
 	width:80%;
    margin:0 auto;
 }
-
-
 
 @media only screen and (max-width: 768px) {
     #ess-wrapper {
@@ -228,6 +218,7 @@ ul li{
     right:10px;
     display: inline-block;
 }
+
 .ess-content, .ess-content-xtra {
     padding: 10px 30px 30px;
     font-size:15px;
@@ -241,6 +232,7 @@ ul li{
     margin:0;
     position:relative;
 }
+
 .ess-toptitle h1 {
     font-size:14px;
     margin-left:5px;
@@ -265,6 +257,7 @@ ul li{
 .definitions li {
     float:none;
 }
+
 .def_btn{
    background-color:#669543;
 	border-radius:6px;
@@ -285,24 +278,24 @@ ul li{
     margin:5px;
     height:40px;
 
-    
 }
-
 
 .ess-content-xtra {
    line-height:160%;    
 }
 
-	html,body {
+html, body {
     position:relative;
     margin:0;
     padding:0;
     overflow:auto; 
 }
+
 .ess-footer {
     position: fixed;
     padding:20px 0;
 }
+
 #ess-wrapper {
     padding-bottom:40px;
 }

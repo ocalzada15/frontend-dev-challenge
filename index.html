@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>ESS Assignment</title>
     <link rel='stylesheet' href='css/main.css' />
 </head>
 <body>
@@ -12,21 +12,17 @@
     <h1 id="title"><strong>Page</strong> <small>Knowledge Check: Exercise</small><hr></h1>
  
     <div>
-        <iframe class="embed-responsive-item" srcdoc="<!doctype html>
+        <iframe id="iframeOne" class="embed-responsive-item" srcdoc="<!doctype html>
             <!--iframe content begins here-->
             <div id=&quot;esscontainer&quot; class=&quot;esscontainer_shadow&quot;>
-                <link href=&quot;css/iframe.css&quot;rel=&quot;stylesheet&quot; type=&quot;text/css&quot; />
-                <script src=&quot;https://cdn.jwplayer.com/libraries/XQrBOLgI.js&quot;></script>
+                <link href=&quot;css/second.css&quot;rel=&quot;stylesheet&quot; type=&quot;text/css&quot; />
                 <div id=&quot;ess-wrapper&quot;>
-                
-                    <div id=&quot;ess-block&quot;>
-                    
+                    <div id=&quot;ess-block&quot;>       
                         <div class=&quot;ess-toptitle&quot;>
                             <h1>Knowledge Check: Exercise</h1>
                         </div>
-
                         <div class=&quot;dropdown&quot;>
-                        <button class=&quot;dropbtn&quot;>Resources</button>
+                            <button class=&quot;dropbtn&quot;>Resources</button>
                             <div class=&quot;dropdown-content&quot; style=&quot;right:0;&quot;>
                                 <a href=&quot;#&quot; target=&quot;_blank&quot;>Alaska Statute 17.37 Medical Uses of Marijuana</a>
                                 <a href=&quot;#&quot; target=&quot;_blank&quot;>Alaska Statute 17.38 The Regulation of Marijuana</a>
@@ -34,7 +30,6 @@
                                 <a href=&quot;#&quot; target=&quot;_blank&quot;>Marijuana Handler Permit Application Instructions</a>
                             </div>
                         </div> 
-                    
                         <div class=&quot;ess-content&quot;>
                             <h1>KNOWLEDGE CHECK</h1>
                             <p>Click on each word to review its definition</p>
@@ -71,24 +66,15 @@
                                 <li><a onclick=&quot;javascript:HideAllShowOne('idten')&quot; class=&quot;def_btn&quot;>Retail Marijuana Store</a></li>
                                     <div id=&quot;idten&quot; style=&quot;display:none;&quot; class=&quot;answerbtns&quot;>An entity registered to purchase marijuana from marijuana cultivation facilities, to purchase marijuana and marijuana products from marijuana product manufacturing facilities, and to sell marijuana and marijuana products to consumers. <br><br>
                                     <div class=&quot;close&quot; ><a onclick=&quot;javascript:HideContent('idten')&quot;>X</a></div> </div>
-                            </ul>
+                            </ul>     
                         </div>
-            
-                        <div class=&quot;ess-footer&quot;>
-                            <div id=&quot;myElement&quot;></div>
-                        </div>
-      
                     </div>
                 </div>
             </div>
-
-            <script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;>
-            
+            <script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;> 
                 function HideAllShowOne(d) {
-                // Between the quotation marks, list the id values of each div.
-                
-                var IDvaluesOfEachDiv = &quot;idone idtwo&quot;;
-                
+                // Between the quotation marks, list the id values of each div.   
+                var IDvaluesOfEachDiv = &quot;idone idtwo&quot;; 
                 //-------------------------------------------------------------
                 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s&quot;']/g,&quot; &quot;);
                 IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,&quot;&quot;);
@@ -97,8 +83,7 @@
                 var IDlist = IDvaluesOfEachDiv.split(&quot; &quot;);
                 for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
                 ShowContent(d);
-                }
-                
+                }  
                 function HideContent(d) {
                 document.getElementById(d).style.display = &quot;none&quot;;
                 }
@@ -111,16 +96,91 @@
                 }
             </script>
             "></iframe>
+
+            <iframe id="iframeTwo" style="display: none;" class="embed-responsive-item" srcdoc="<!doctype html>
+                    <!--course content begins here-->
+                    <div id=&quot;esscontainer&quot; class=&quot;esscontainer_shadow&quot;>
+                        <link href=&quot;css/second.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot; />
+                        <div id=&quot;ess-wrapper&quot;>  
+                            <div id=&quot;ess-block&quot;>
+                            <div class=&quot;ess-toptitle&quot;><h1>AS 17.37 Medical Uses of Marijuana</h1></div>
+                            <div class=&quot;dropdown&quot;>
+                                <button class=&quot;dropbtn&quot;>Resources</button>
+                                <div class=&quot;dropdown-content&quot; style=&quot;right:0;&quot;>
+                                    <a href=&quot;#&quot; target=&quot;_blank&quot;>Alaska Statute 17.37 Medical Uses of Marijuana</a>
+                                    <a href=&quot;#&quot; target=&quot;_blank&quot;>Alaska Statute 17.38 The Regulation of Marijuana</a>
+                                    <a href=&quot;#&quot; target=&quot;_blank&quot;>3 AAC 306 Regulations for the Marijuana Control Board</a>
+                                    <a href=&quot;#&quot; target=&quot;_blank&quot;>Marijuana Handler Permit Application Instructions</a>
+                                </div>
+                            </div>         
+                            <div class=&quot;ess-content&quot;>
+                                <h3>Checking IDs Exercise</h3>
+                                <p>Examine ID to determine whether or not you would sell to the customer.	</p>  
+                                <div class=&quot;center&quot;><img src=&quot;https://ess-ops-lms.s3.amazonaws.com/lms/rul/amhc/images/alaska-scratches.png&quot; width=&quot;400&quot; height=&quot;250&quot; alt=&quot;&quot;/>
+                                    <ul class=&quot;doit&quot;>
+                                        <span class=&quot;green&quot;>
+                                            <li><a href=&quot;javascript:HideAllShowOne('idone')&quot;>SELL</a></li>
+                                        </span> 
+                                            <li><a href=&quot;javascript:HideAllShowOne('idtwo')&quot;>DON'T SELL</a></li></ul></div>
+                                            <div id=&quot;idone&quot; class=&quot;expired&quot; style=&quot;display:none;&quot; ><strong>Incorrect.</strong><br />The correct answer is:<br /><span class=&quot;red&quot;><strong>DON'T SELL</strong></span><br />This license has some bumps and scratches indicating that it may have been tampered with. It's expired. <div class=&quot;close&quot;><a href=&quot;javascript:HideContent('idone')&quot;><strong>X</strong></a></div></div>
+                                            <div id=&quot;idtwo&quot; class=&quot;expired&quot; style=&quot;display:none;&quot;><strong>Congratulations.</strong> <br />The correct answer is:<br /><span class=&quot;red&quot;><strong>DON'T SELL</strong></span><br />This license has some bumps and scratches indicating that it may have been tampered with. It's expired.
+                                            <div class=&quot;close&quot;><a href=&quot;javascript:HideContent('idtwo')&quot;><strong>X</strong></a></div></div>
+                                        </div>
+                        </div>
+                    </div>
+                    <script type=&quot;text/javascript&quot; language=&quot;JavaScript&quot;>  
+                    function HideAllShowOne(d) {
+                    // Between the quotation marks, list the id values of each div.  
+                    var IDvaluesOfEachDiv = &quot;idone idtwo&quot;;  
+                    //-------------------------------------------------------------
+                    IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/[,\s&quot;']/g,&quot; &quot;);
+                    IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/^\s*/,&quot;&quot;);
+                    IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/\s*$/,&quot;&quot;);
+                    IDvaluesOfEachDiv = IDvaluesOfEachDiv.replace(/  +/g,&quot; &quot;);
+                    var IDlist = IDvaluesOfEachDiv.split(&quot; &quot;);
+                    for(var i=0; i<IDlist.length; i++) { HideContent(IDlist[i]); }
+                    ShowContent(d);
+                    }    
+                    function HideContent(d) {
+                    document.getElementById(d).style.display = &quot;none&quot;;
+                    }
+                    function ShowContent(d) {
+                    document.getElementById(d).style.display = &quot;block&quot;;
+                    }
+                    function ReverseDisplay(d) {
+                    if(document.getElementById(d).style.display == &quot;none&quot;) { document.getElementById(d).style.display = &quot;block&quot;; }
+                    else { document.getElementById(d).style.display = &quot;none&quot;; }
+                    }
+                    //--></script>
+                    </div>
+                    "></iframe>
+        </div>
+        <button id="navBtn">Next</button>
+        <br>
+        <hr>
+        <div>
+        <h2>Instructions</h2>
+        <ul>
+            <li> The main document and iframe content each have their own css styles respectively.</li>
+            <li> The challenge is to have the same functionality and styling without using an Iframe.</li>
+            <li>** Make sure your solutions is supported throughout different browsers. **</li>
+        </ul>
     </div>
 
-    <br>
-    <hr>
-
-    <div>
-        <h2>** The main document and iframe content each have their own css respectively. **</h2>  
-        <h2>** The challenge is to have the same functionality without using an Iframe while still having each content (main and iframe) styled by its own css. **</h2>  
-    </div>
-
+<script>
+    const navBtn = document.getElementById('navBtn')
+    navBtn.addEventListener('click', function(e) {
+        if (navBtn.textContent !== 'Back') {
+            document.getElementById('iframeOne').style.display = 'none';
+            document.getElementById('iframeTwo').style.display = 'inline';
+            navBtn.textContent = 'Back'
+        } else {
+            document.getElementById('iframeOne').style.display = 'inline';
+            document.getElementById('iframeTwo').style.display = 'none';
+            navBtn.textContent = 'Next'
+        }
+    })
+</script>
 </body>
 </html>
 
